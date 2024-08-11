@@ -1,3 +1,4 @@
+import 'package:day_scroll_carousel_slider/scroller.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -21,11 +22,7 @@ void main() {
             home: child,
           );
         },
-        child: Container(
-          height: 100.h,
-          width: 200.w,
-          color: Colors.amber,
-        ),
+        child: Scroller(),
       ),
     ),
   );
